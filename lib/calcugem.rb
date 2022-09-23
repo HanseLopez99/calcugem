@@ -4,7 +4,7 @@
 # Basic calculator ruby gem
 
 class Calcugem
-  def add(a, b)
+  def sum(a, b)
     a + b
   end
 
@@ -18,5 +18,17 @@ class Calcugem
 
   def divide(a, b)
     a / b
+  end
+
+  def exponent (a, b)
+    a ** b
+  end
+
+  def square_root(a)
+    Math.sqrt(a)
+  end
+
+  def cube_root(a)
+    Math.cbrt(a)
   end
 end

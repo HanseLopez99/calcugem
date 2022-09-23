@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "calcugem"
-  s.version     = "0.0.1"
+  s.version     = "0.0.4"
   s.summary     = "Calcugem!"
   s.description = "A gem that implements a basic calculator"
   s.authors     = ["Hansel Lopez"]
